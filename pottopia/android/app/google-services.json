@@ -1,0 +1,30 @@
+{
+  "project_info": {
+    "project_number": "459126964801",
+    "firebase_url": "https://topia-7f806-default-rtdb.asia-southeast1.firebasedatabase.app",
+    "project_id": "topia-7f806",
+    "storage_bucket": "topia-7f806.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:459126964801:android:431a72cc8fc70745a87cc0",
+        "android_client_info": {
+          "package_name": "com.example.topia"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCDgllVorz5m8Xly_pienXdum9bLiMmrwI"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
