@@ -1,0 +1,34 @@
+{
+  "flutter": {
+    "platforms": {
+      "android": {
+        "default": {
+          "projectId": "pottopia",
+          "appId": "1:267453229231:android:54b9bbe2da92a274188c5a",
+          "fileOutput": "android/app/google-services.json"
+        }
+      },
+      "dart": {
+        "lib/firebase_options.dart": {
+          "projectId": "pottopia",
+          "configurations": {
+            "android": "1:267453229231:android:54b9bbe2da92a274188c5a",
+            "ios": "1:267453229231:ios:6a88069482306411188c5a",
+            "macos": "1:267453229231:ios:6a88069482306411188c5a",
+            "web": "1:267453229231:web:300095a6b9cfb67b188c5a",
+            "windows": "1:267453229231:web:5ebb4477f644a741188c5a"
+          }
+        }
+      }
+    }
+  },
+  "firestore": {
+    "database": "(default)",
+    "location": "asia-northeast3",
+    "rules": "firestore.rules",
+    "indexes": "firestore.indexes.json"
+  },
+  "storage": {
+    "rules": "storage.rules"
+  }
+}

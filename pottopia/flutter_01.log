@@ -1,0 +1,99 @@
+Flutter crash report.
+Please report a bug at https://github.com/flutter/flutter/issues.
+
+## command
+
+flutter --quiet assemble --no-version-check --depfile E:\Media_Files\Project\pottopia\pottopia\build\app\intermediates\flutter\debug/flutter_build.d --output E:\Media_Files\Project\pottopia\pottopia\build\app\intermediates\flutter\debug -dTargetFile=E:\Media_Files\Project\pottopia\pottopia\lib\main.dart -dTargetPlatform=android -dBuildMode=debug -dTrackWidgetCreation=true --DartDefines=RkxVVFRFUl9WRVJTSU9OPTMuMzIuMQ==,RkxVVFRFUl9DSEFOTkVMPXN0YWJsZQ==,RkxVVFRFUl9HSVRfVVJMPWh0dHBzOi8vZ2l0aHViLmNvbS9mbHV0dGVyL2ZsdXR0ZXIuZ2l0,RkxVVFRFUl9GUkFNRVdPUktfUkVWSVNJT049YjI1MzA1YTg4Mw==,RkxVVFRFUl9FTkdJTkVfUkVWSVNJT049MTQyNWU1ZTllYw==,RkxVVFRFUl9EQVJUX1ZFUlNJT049My44LjE= -dFlavor= -dAndroidArchs=android-x64 -dMinSdkVersion=21 debug_android_application
+
+## exception
+
+FileSystemException: FileSystemException: Cannot resolve symbolic links, path = 'E:\Media_Files\Project\pottopia\pottopia\.dart_tool\flutter_build\8f23f5f071523ca1c3bfb5065eb6629c' (OS Error: 지정된 경로를 찾을 수 없습니다.
+, errno = 3)
+
+```
+#0      FileSystemEntity._throwIfError (dart:io/file_system_entity.dart:886:7)
+#1      FileSystemEntity.resolveSymbolicLinksSync (dart:io/file_system_entity.dart:375:5)
+#2      ForwardingFileSystemEntity.resolveSymbolicLinksSync (package:file/src/forwarding/forwarding_file_system_entity.dart:56:49)
+#3      ForwardingFileSystemEntity.resolveSymbolicLinksSync (package:file/src/forwarding/forwarding_file_system_entity.dart:56:49)
+#4      SourceVisitor.visitPattern (package:flutter_tools/src/build_system/source.dart:121:61)
+#5      _PatternSource.accept (package:flutter_tools/src/build_system/source.dart:296:49)
+#6      Target._resolveConfiguration (package:flutter_tools/src/build_system/build_system.dart:247:14)
+#7      Target.resolveOutputs (package:flutter_tools/src/build_system/build_system.dart:204:12)
+#8      Target._toNode (package:flutter_tools/src/build_system/build_system.dart:161:39)
+#9      Target._toNode (package:flutter_tools/src/build_system/build_system.dart:166:63)
+#10     FlutterBuildSystem.build (package:flutter_tools/src/build_system/build_system.dart:618:30)
+#11     AssembleCommand.runCommand (package:flutter_tools/src/commands/assemble.dart:346:51)
+#12     FlutterCommand.verifyThenRunCommand (package:flutter_tools/src/runner/flutter_command.dart:1909:12)
+<asynchronous suspension>
+#13     FlutterCommand.run.<anonymous closure> (package:flutter_tools/src/runner/flutter_command.dart:1563:27)
+<asynchronous suspension>
+#14     AppContext.run.<anonymous closure> (package:flutter_tools/src/base/context.dart:154:19)
+<asynchronous suspension>
+#15     CommandRunner.runCommand (package:args/command_runner.dart:212:13)
+<asynchronous suspension>
+#16     FlutterCommandRunner.runCommand.<anonymous closure> (package:flutter_tools/src/runner/flutter_command_runner.dart:494:9)
+<asynchronous suspension>
+#17     AppContext.run.<anonymous closure> (package:flutter_tools/src/base/context.dart:154:19)
+<asynchronous suspension>
+#18     FlutterCommandRunner.runCommand (package:flutter_tools/src/runner/flutter_command_runner.dart:431:5)
+<asynchronous suspension>
+#19     run.<anonymous closure>.<anonymous closure> (package:flutter_tools/runner.dart:98:11)
+<asynchronous suspension>
+#20     AppContext.run.<anonymous closure> (package:flutter_tools/src/base/context.dart:154:19)
+<asynchronous suspension>
+#21     main (package:flutter_tools/executable.dart:102:3)
+<asynchronous suspension>
+```
+
+## flutter doctor
+
+```
+[✓] Flutter (Channel stable, 3.32.1, on Microsoft Windows [Version 10.0.22631.4890], locale ko-KR) [1,746ms]
+    • Flutter version 3.32.1 on channel stable at E:\Programs\flutter
+    • Upstream repository https://github.com/flutter/flutter.git
+    • Framework revision b25305a883 (3 weeks ago), 2025-05-29 10:40:06 -0700
+    • Engine revision 1425e5e9ec
+    • Dart version 3.8.1
+    • DevTools version 2.45.1
+
+[✓] Windows Version (11 Education 64-bit, 23H2, 2009) [7.2s]
+
+[✓] Android toolchain - develop for Android devices (Android SDK version 35.0.0) [22.5s]
+    • Android SDK at E:\Programs\Android\Sdk
+    • Platform android-35, build-tools 35.0.0
+    • Java binary at: E:\Programs\Android Studio\jbr\bin\java
+      This is the JDK bundled with the latest Android Studio installation on this machine.
+      To manually set the JDK path, use: `flutter config --jdk-dir="path/to/jdk"`.
+    • Java version OpenJDK Runtime Environment (build 17.0.11+0--11852314)
+    • All Android licenses accepted.
+
+[✓] Chrome - develop for the web [416ms]
+    • Chrome at C:\Program Files\Google\Chrome\Application\chrome.exe
+
+[✓] Visual Studio - develop Windows apps (Visual Studio Community 2022 17.11.5) [412ms]
+    • Visual Studio at C:\Program Files\Microsoft Visual Studio\2022\Community
+    • Visual Studio Community 2022 version 17.11.35327.3
+    • Windows 10 SDK version 10.0.22621.0
+
+[✓] Android Studio (version 2024.1) [67ms]
+    • Android Studio at E:\Programs\Android Studio
+    • Flutter plugin can be installed from:
+      🔨 https://plugins.jetbrains.com/plugin/9212-flutter
+    • Dart plugin can be installed from:
+      🔨 https://plugins.jetbrains.com/plugin/6351-dart
+    • Java version OpenJDK Runtime Environment (build 17.0.11+0--11852314)
+
+[✓] VS Code (version 1.101.0) [61ms]
+    • VS Code at C:\Users\swj\AppData\Local\Programs\Microsoft VS Code
+    • Flutter extension version 3.112.0
+
+[✓] Connected device (3 available) [552ms]
+    • Windows (desktop) • windows • windows-x64    • Microsoft Windows [Version 10.0.22631.4890]
+    • Chrome (web)      • chrome  • web-javascript • Google Chrome 137.0.7151.105
+    • Edge (web)        • edge    • web-javascript • Microsoft Edge 137.0.3296.83
+
+[✓] Network resources [15.6s]
+    • All expected network resources are available.
+
+• No issues found!
+```
