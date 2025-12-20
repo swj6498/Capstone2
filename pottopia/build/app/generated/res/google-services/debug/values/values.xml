@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="firebase_database_url" translatable="false">https://topia-7f806-default-rtdb.asia-southeast1.firebasedatabase.app</string>
+    <string name="gcm_defaultSenderId" translatable="false">459126964801</string>
+    <string name="google_api_key" translatable="false">AIzaSyCDgllVorz5m8Xly_pienXdum9bLiMmrwI</string>
+    <string name="google_app_id" translatable="false">1:459126964801:android:431a72cc8fc70745a87cc0</string>
+    <string name="google_crash_reporting_api_key" translatable="false">AIzaSyCDgllVorz5m8Xly_pienXdum9bLiMmrwI</string>
+    <string name="google_storage_bucket" translatable="false">topia-7f806.firebasestorage.app</string>
+    <string name="project_id" translatable="false">topia-7f806</string>
+</resources>
