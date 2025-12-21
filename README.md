@@ -1,9 +1,6 @@
 # Pottpoia
 ### Flutter · Firebase 기반 팟 매칭 서비스 앱
-
-<img width="2559" height="1432" alt="image" src="https://github.com/user-attachments/assets/e323e40e-62ee-4961-9dc7-b10122639d04" />
-
-
+<img width="1394" height="359" alt="image" src="https://github.com/user-attachments/assets/0b25ade6-fd98-43c5-ad12-37759da03d31" />
 
 ---
 
