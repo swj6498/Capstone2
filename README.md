@@ -1,4 +1,4 @@
-# Pottpoia
+# Pottpoia 💬
 ### Flutter · Firebase 기반 팟 매칭 서비스 앱
 <img width="1394" height="359" alt="image" src="https://github.com/user-attachments/assets/0b25ade6-fd98-43c5-ad12-37759da03d31" />
 
@@ -33,7 +33,7 @@
 | **Infra / Server** | <img src="https://img.shields.io/badge/Firebase%20Hosting-FFCA28?style=flat-square&logo=firebase&logoColor=black"> <img src="https://img.shields.io/badge/Cloud%20Functions-FFCA28?style=flat-square&logo=googlecloud&logoColor=white"> |
 | **API / External Services** | <img src="https://img.shields.io/badge/Firebase%20Authentication-FFCA28?style=flat-square&logo=firebase&logoColor=black"> <img src="https://img.shields.io/badge/Google%20Maps%20API-4285F4?style=flat-square&logo=googlemaps&logoColor=white"> <img src="https://img.shields.io/badge/Geocoding%20API-34A853?style=flat-square&logo=googlemaps&logoColor=white"> |
 | **Build Tool** | <img src="https://img.shields.io/badge/Gradle-02303A?style=flat-square&logo=gradle&logoColor=white"> |
-| **Tools** | <img src="https://img.shields.io/badge/VS%20Code-007ACC?style=flat-square&logo=visualstudiocode&logoColor=white"> <img src="https://img.shields.io/badge/Android%20Studio-3DDC84?style=flat-square&logo=androidstudio&logoColor=white"> <img src="https://img.shields.io/badge/Firebase%20Console-FFCA28?style=flat-square&logo=firebase&logoColor=black"> <img src="https://img.shields.io/badge/GitHub-181717?style=flat-square&logo=github&logoColor=white"> |
+| **Tools** | <img src="https://img.shields.io/badge/VS%20Code-007ACC?style=flat-square&logo=visualstudiocode&logoColor=white"> <img src="https://img.shields.io/badge/Android%20Studio-3DDC84?style=flat-square&logo=androidstudio&logoColor=white"> <img src="https://img.shields.io/badge/Firebase%20Console-FFCA28?style=flat-square&logo=firebase&logoColor=black"> <img src="https://img.shields.io/badge/Figma-F24E1E?style=flat-square&logo=figma&logoColor=white"> <img src="https://img.shields.io/badge/GitHub-181717?style=flat-square&logo=github&logoColor=white"> |
 
 ---
 
@@ -58,6 +58,13 @@
 
 ### 🔍 담당 기능
 
+<details>
+  
+<summary><strong>프론트엔드 구현</strong></summary>
+  
+
+
+</details>
 
 ---
 
