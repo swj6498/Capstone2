@@ -56,18 +56,6 @@
 
 ---
 
-### 🔍 담당 기능
-
-<details>
-  
-<summary><strong>프론트엔드 구현</strong></summary>
-  
-
-
-</details>
-
----
-
 ### 📌 전체 시연 영상
 🔗 YouTube 링크: https://www.youtube.com/watch?v=FakMQAkj0Mg
 
