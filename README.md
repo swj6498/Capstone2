@@ -16,7 +16,7 @@
 
 ### 👨‍💻 담당 역할
 
-- 파이어베이스 플러터 연동
+- FlutterFire 환경 구축
 - 프론트엔드 구현
 - 구글 지도 API 연동
 - 거리 계산 기능 구현
@@ -35,4 +35,9 @@
 | **Build Tool** | <img src="https://img.shields.io/badge/Gradle-02303A?style=flat-square&logo=gradle&logoColor=white"> |
 | **Tools** | <img src="https://img.shields.io/badge/VS%20Code-007ACC?style=flat-square&logo=visualstudiocode&logoColor=white"> <img src="https://img.shields.io/badge/Android%20Studio-3DDC84?style=flat-square&logo=androidstudio&logoColor=white"> <img src="https://img.shields.io/badge/Firebase%20Console-FFCA28?style=flat-square&logo=firebase&logoColor=black"> <img src="https://img.shields.io/badge/GitHub-181717?style=flat-square&logo=github&logoColor=white"> |
 
+---
 
+### 📌 전체 시연 영상
+🔗 YouTube 링크: https://www.youtube.com/watch?v=FakMQAkj0Mg
+
+---
